@@ -71,9 +71,7 @@ button {
 }
 /* ----------------header---------------- */
 .header {
-    background-color: var(--header-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
@@ -103,6 +101,8 @@ button {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    padding-top: 24px;
+    padding-bottom: 25px;
     color: var(--accent-color)
 }
 
@@ -119,6 +119,8 @@ button {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--primary-title-color);
 }
 .contact-item:not(:first-child) {
@@ -137,6 +139,8 @@ button {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: inherit;
 }
 
@@ -153,13 +157,11 @@ button {
 
 .hero {
     background-color: var(--darck-background-color);
-}
-
-.hero-content{
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
 }
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -196,11 +198,8 @@ button {
 .advantage {
     background-color: var(--header-color);
     padding-top: 94px;
-    padding-right: 215px;
-    padding-left: 215px;
 
 }
-
 
 .advantage-list {
     display: flex;
